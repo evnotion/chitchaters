@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- delete if you want, just a thought that popped up -->
+<head>
+  <title>Test 123</title>
+  <style>
+    .centre {
+      display: flex;
+      animation: myRGB 10s infinite;
+    }
+
+    @keyframes myRGB {
+      0% {
+        color: red;
+      }
+
+      25% {
+        color: orange;
+      }
+
+      50% {
+        color: cyan;
+      }
+
+      75% {
+        color: orange;
+      }
+
+      100% {
+        color: red;
+      }
+    }
+
+    .container-fluid {
+      padding: 7% 15%;
+      display: inline-block;
+    }
+
+
+    .animated-box {
+      height: 5rem;
+      width: 5rem;
+      border: solid 2px;
+      position: absolute;
+      animation: a0 3s infinite;
+    }
+
+    @keyframes a0 {
+      50% {
+        transform: rotate(360deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a1 {
+      50% {
+        transform: rotate(342deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a2 {
+      50% {
+        transform: rotate(324deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a3 {
+      50% {
+        transform: rotate(306deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a4 {
+      50% {
+        transform: rotate(288deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a5 {
+      50% {
+        transform: rotate(270deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a6 {
+      50% {
+        transform: rotate(252deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a7 {
+      50% {
+        transform: rotate(216deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    @keyframes a8 {
+      50% {
+        transform: rotate(198deg);
+        border-radius: 50%;
+        height: 25%
+      }
+    }
+
+    #a1 {
+      animation-name: a1
+    }
+
+    #a2 {
+      animation-name: a2
+    }
+
+    #a3 {
+      animation-name: a3
+    }
+
+    #a4 {
+      animation-name: a4
+    }
+
+    #a5 {
+      animation-name: a5
+    }
+
+    #a6 {
+      animation-name: a6
+    }
+
+    #a7 {
+      animation-name: a7
+    }
+
+    #a8 {
+      animation-name: a8
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="centre">
+      <div class="animated-box" id="a0"></div>
+      <div class="animated-box" id="a1"></div>
+      <div class="animated-box" id="a2"></div>
+      <div class="animated-box" id="a3"></div>
+      <div class="animated-box" id="a4"></div>
+      <div class="animated-box" id="a5"></div>
+      <div class="animated-box" id="a6"></div>
+      <div class="animated-box" id="a7"></div>
+      <div class="animated-box" id="a8"></div>
+    </div>
+  </div>
+</body>
+
+</html>
